@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.main-body {
+    background-color: hsl(213, 19%, 18%);
+    width: 20vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 2rem;
+    padding: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+}
+
+.star-image {
+    background-color: hsl(216, 12%, 8%);
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+img {
+    margin: auto;
+    width: 15px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    letter-spacing: 1px;
+}
+
+a {
+    color: hsl(216, 12%, 54%);
+    background-color:hsl(216, 12%, 8%) ;
+    padding: 5px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 0;
+    text-decoration: none;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 1.5rem;
+    border: none;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+ 
+
+.btn-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+a:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
