@@ -53,7 +53,7 @@ a {
 
 .btn-submit {
     background-color: hsl(25, 97%, 53%);
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 12px;
     width: 100%;
     padding: 13px 0;
@@ -66,7 +66,7 @@ a {
  
 
 .btn-submit:hover {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
 a:hover {
