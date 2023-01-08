@@ -21,7 +21,7 @@ body {
     padding: 10px 10px;
     border-radius: 50%;
 }
-img {
+.image {
     margin: auto;
     width: 15px;
     margin-top: 10px;
@@ -80,4 +80,35 @@ h2 {
 .input:hover {
     background-color: hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%);
+}
+
+.numbers .input:is(:focus) {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.thank-you-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.rate {
+    text-align: center;
+    margin: 25px;
+    background-color: hsl(216, 12%, 8%);
+    padding: 10px 0;
+    color: hsl(25, 97%, 53%);
+    border-radius: 1rem;
+}
+
+.thanks {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+
+.descrip {
+    text-align: center;
 }
