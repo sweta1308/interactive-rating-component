@@ -116,6 +116,7 @@ h2 {
 @media only screen and (max-width:374px){
     .main-body{
         width: 290px;
-        margin: 30px;
+        margin: 0 auto;
+        margin-top: 1rem;
     }
   }
