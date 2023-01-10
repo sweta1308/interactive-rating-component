@@ -4,8 +4,8 @@ body {
 
 .main-body {
     background-color: hsl(213, 19%, 18%);
-    width: 20vw;
-    height: 40vh;
+    width: 384px;
+    height: 768px;
     margin: auto;
     margin-top: 8.75rem;
     border-radius: 2rem;
@@ -113,7 +113,7 @@ h2 {
     text-align: center;
 }
 
-@media only screen and (max-width:374px){
+@media only screen and (max-width:480px){
     .main-body{
         width: 250px;
         height: 300px;
