@@ -7,29 +7,29 @@ body {
     width: 20vw;
     height: 40vh;
     margin: auto;
-    margin-top: 140px;
+    margin-top: 8.75rem;
     border-radius: 2rem;
-    padding: 30px;
+    padding: 1.875rem;
     font-family: 'Overpass', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     overflow: hidden;
 }
 
 .star-image {
     background-color: hsl(216, 12%, 8%);
     display: inline;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     border-radius: 50%;
 }
 .image {
     margin: auto;
-    width: 15px;
-    margin-top: 10px;
+    width: 0.9375rem;
+    margin-top: 0.625rem;
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 p {
@@ -45,9 +45,9 @@ h2 {
 .input {
     color: hsl(216, 12%, 54%);
     background-color:hsl(216, 12%, 8%) ;
-    width: 45px;
-    height: 45px;
-    margin: 20px 0;
+    width: 2.81rem;
+    height: 2.81rem;
+    margin: 1.25rem 0;
     border-radius: 50%;
     cursor: pointer;
     text-decoration: none;
@@ -96,7 +96,7 @@ h2 {
 
 .rate {
     text-align: center;
-    margin: 25px;
+    margin: 1.56rem;
     background-color: hsl(216, 12%, 8%);
     padding: 10px 0;
     color: hsl(25, 97%, 53%);
