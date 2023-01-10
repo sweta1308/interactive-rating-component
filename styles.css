@@ -112,3 +112,10 @@ h2 {
 .descrip {
     text-align: center;
 }
+
+@media only screen and (max-width:425px){
+    .main-body{
+        width: 293px;
+        margin: 45px;
+    }
+  }
